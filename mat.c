@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int m[3][4], v[3], somav;
+    int m[3][4], v[3]={0,0,0}, somav=0;
 
     //Ler os valores da matriz
     for (int i = 0; i < 3; i++){
